@@ -29,7 +29,18 @@ As a result:
 This project addresses these challenges by leveraging **Supervised Machine Learning**
 to assist in loan approval decisions.
 
+## 📁 Project Structure
 
+```
+CreditWise/
+├── CreditWise_Loan_System.ipynb        # Main Jupyter Notebook (full ML pipeline)
+├── loan_approval_data.csv   # Dataset with 1000 loan applicant records
+├── requirements.txt         # Python dependencies
+|-- CreditWise_Loan_System.pdf
+└── README.md
+```
+
+---
 ## 🎯 Objective
 - Predict whether a loan should be **Approved (1)** or **Rejected (0)**
 - Minimize financial risk by correctly identifying high-risk applicants
@@ -125,8 +136,8 @@ not replace them.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Rachgit28/CreditWise.git
-   cd CreditWise
+   git clone https://github.com/vivekpatil/CreditWise_Loan_System.git
+   cd CreditWise_Loan_System
    ```
 
 2. **Install dependencies**
@@ -136,7 +147,7 @@ not replace them.
 
 3. **Launch the notebook**
    ```bash
-   jupyter notebook credit_wise.ipynb
+   jupyter notebook CreditWise_Loan_System.ipynb
    ```
 
 4. Make sure `loan_approval_data.csv` is in the same directory as the notebook.
@@ -156,4 +167,4 @@ deployment in loan approval systems.
 
 **Vivek Patil**  
 📧 vivekp9356@gmail.com  
-🔗 [GitHub – VivekkPatil](https://github.com/vivekkpatil)
+🔗 [GitHub – VivekkPatil](https://github.com/vivekk-patil)
