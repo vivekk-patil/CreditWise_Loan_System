@@ -167,4 +167,4 @@ deployment in loan approval systems.
 
 **Vivek Patil**  
 📧 vivekp9356@gmail.com  
-🔗 [GitHub – VivekkPatil](https://github.com/vivekk-patil)
+🔗 [GitHub – Vivek Patil](https://github.com/vivekk-patil)
