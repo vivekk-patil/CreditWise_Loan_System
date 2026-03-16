@@ -1,5 +1,11 @@
 # 💳 CreditWise Loan Approval System
 
+CreditWise is a supervised machine learning project that focuses on building an intelligent **Loan Approval System**. The objective of this project is to predict whether a loan application should be approved or rejected based on applicant details and financial attributes.
+
+The project follows a complete end-to-end machine learning workflow, from data preprocessing and exploratory analysis to model training, evaluation, and performance improvement.
+
+---
+
 ## 📌 Project Overview
 CreditWise is a **Machine Learning–based loan approval decision support system**
 designed to help financial institutions predict whether a loan application should
@@ -60,14 +66,18 @@ employment, and credit-related attributes.
 
 
 ## 🔄 Machine Learning Workflow
-1. Data loading and exploration (EDA)
-2. Data preprocessing and cleaning
-3. Handling missing values
-4. Encoding categorical variables
-5. Feature scaling
-6. Train-test split
-7. Model training and comparison
-8. Risk-aware evaluation and optimization
+1. Data Import and Inspection  
+2. Handling Missing Values  
+3. Exploratory Data Analysis (EDA)  
+4. Data Visualization  
+5. Feature Encoding (Categorical to Numerical)  
+6. Correlation Analysis using Heatmap  
+7. Train-Test Split  
+8. Feature Scaling  
+9. Model Training and Evaluation  
+10. Feature Engineering  
+11. Model Re-training and Performance Improvement  
+12. Final Model Selection  
 
 
 ## 🤖 Models Implemented
@@ -91,11 +101,10 @@ financial losses.
 
 
 ## 🚀 Advanced Improvements
-- Class imbalance handled using `class_weight='balanced'`
-- Feature scaling to improve model convergence
-- Probability-based predictions
-- Custom threshold tuning to reduce risky approvals
-- Feature importance analysis for interpretability
+- Implement Random Forest and other ensemble methods
+- Perform hyperparameter tuning
+- Deploy the model as a web-based loan approval system
+- Use real-time applicant data for predictions
 
 
 ## 🏆 Final Recommendation
@@ -112,19 +121,39 @@ not replace them.
 - Maintains human-in-the-loop approval authority
 
 
+## ⚙️ How to Run
 
-## ▶️ How to Run the Project
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/creditwise-loan-system.git
-2. Open Jupyter Notebook:
-   jupyter notebook
-3. Run Creditwise_Loan_System.ipynb
+   git clone https://github.com/Rachgit28/CreditWise.git
+   cd CreditWise
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch the notebook**
+   ```bash
+   jupyter notebook credit_wise.ipynb
+   ```
+
+4. Make sure `loan_approval_data.csv` is in the same directory as the notebook.
+
+---
 
 ## 🎓 Conclusion
+
+> ✅ **Best Model: Naive Bayes** — selected based on highest Precision score, which minimises false approvals (high-risk customers being incorrectly approved).
 
 This project demonstrates a complete, real-world machine learning workflow that
 aligns technical model performance with business objectives in the financial
 domain. It highlights the importance of risk-aware evaluation and ethical ML
 deployment in loan approval systems.
 
+## 👤 Author
+
+**Vivek Patil**  
+📧 vivekp9356@gmail.com  
+🔗 [GitHub – VivekkPatil](https://github.com/vivekkpatil)
